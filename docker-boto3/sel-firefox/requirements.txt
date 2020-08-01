@@ -1,0 +1,4 @@
+awscli
+boto3
+selenium==3.11.0
+requests

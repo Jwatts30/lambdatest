@@ -34,8 +34,8 @@ sleep(1)
 #driver.get_screenshot_as_file("screenshot.png")
 client = boto3.client(
     's3',
-    aws_access_key_id="AKIA2M6LCEP6MPIRHG7D",
-    aws_secret_access_key="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",
+    aws_access_key_id="XXXXXXX",
+    aws_secret_access_key="XXXXXXXX",
     region_name='us-west-2'
 )
 

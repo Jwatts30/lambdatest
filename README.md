@@ -11,4 +11,4 @@
 
 * Need to use multi stage to decrease image size
 * Need to work on way to provide access key for aws
-* To spin the container in parallelly need to use docker compose
+* To spin the container in parallell need to use selenium grid

@@ -5,5 +5,18 @@ resources:
        endpoint: Jwatts30
        name: Jwatts30/lambdatest
 
-extends:
-  template: Jwatts30/lambdatest/start.yml
+stages:
+  - stage: job1
+    displayName: job1
+    jobs:
+    - job: github
+      displayName: github
+      steps:
+        - checkout: build_pipeline
+          displayName: ABC
+        - task: PythonScript@0
+          Jwatts30/lambdatest
+
+
+      
+

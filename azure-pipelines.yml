@@ -14,9 +14,7 @@ stages:
       steps:
         - checkout: build_pipeline
           displayName: ABC
-        - task: PythonScript@0
-          Jwatts30/lambdatest
-
+          
 
       
 

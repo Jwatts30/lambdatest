@@ -6,4 +6,4 @@ resources:
        name: Jwatts30/lambdatest
 
 extends:
-  template: start.yml@lambdatest
+  template: start.yml

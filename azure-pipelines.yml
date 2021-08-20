@@ -2,7 +2,7 @@ resources:
    repositories:
      - repository: build_pipeline
        type: github
-       endpoint: Jwatts30
+       endpoint: Jwatts3012
        name: Jwatts30/lambdatest
 
 stages:

@@ -6,7 +6,7 @@ resources:
        name: Jwatts30/lambdatest
 
 extends:
-   template: Jwatts30/lambdatestdocker-boto3/start.yml
+   template: Jwatts30/lambdatestdocker-boto3/start.yml@build-pipeline
    parameters: 
        service: abc
 

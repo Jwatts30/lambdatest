@@ -8,6 +8,7 @@ resources:
 stages:
   - stage: job1
     displayName: job1
+    pool: agent-pool
     jobs:
     - job: github
       displayName: github

@@ -5,16 +5,19 @@ resources:
        endpoint: Jwatts30
        name: Jwatts30/lambdatest
 
-stages:
-  - stage: job1
-    displayName: job1
-    pool: agent-pool
-    jobs:
-    - job: github
-      displayName: github
-      steps:
-        - checkout: build_pipeline
-          displayName: ABC
+extends:
+   template: start.yml
+
+# stages:
+#   - stage: job1
+#     displayName: job1
+#     pool: agent-pool
+#     jobs:
+#     - job: github
+#       displayName: github
+#       steps:
+#         - checkout: build_pipeline
+#           displayName: ABC
           
 
       

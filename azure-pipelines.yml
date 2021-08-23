@@ -1,0 +1,26 @@
+resources:
+   repositories:
+     - repository: build_pipeline
+       type: github
+       endpoint: Jwatts30
+       name: Jwatts30/lambdatest
+
+# extends:
+#    template: docker-boto3/start.yml@build_pipeline
+#    parameters: 
+#        service: abc
+
+stages:
+  - stage: job1
+    displayName: job1
+    pool: agent-pool
+    jobs:
+    - job: github
+      displayName: github
+      steps:
+        - checkout: build_pipeline
+          displayName: ABC
+          
+
+      
+

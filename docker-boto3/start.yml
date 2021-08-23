@@ -1,6 +1,5 @@
-trigger:
-- master
 
+stage: stage1
 pool: agent-pool
 
 steps:
